@@ -29,6 +29,7 @@ Include anche test unitari per verificare il corretto funzionamento della funzio
 
 ## Esecuzione dei test
 - pytest test_calcolatrice.py
+- pytest -v 
 
 ## Github
 - echo "# DevOps-calcolatrice" >> README.md
