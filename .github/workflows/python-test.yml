@@ -1,7 +1,5 @@
 name: Python Test con Pytest
 
-Questo workflow parte ogni volta che fai un push su "main"
-on:
   push:
     branches: [ "main" ]
   pull_request:
