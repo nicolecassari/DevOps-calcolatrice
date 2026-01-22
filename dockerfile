@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt   #per ottimizzare lo strato docker
 
 COPY . .
-RUN chown -R appuser:appuser /app
+RUN chown -R appuser:appuser /app  #cam,bio proprietario dei file
 USER appuser
 
 CMD ["python", "calcolatrice.py"]

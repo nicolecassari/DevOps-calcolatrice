@@ -44,5 +44,7 @@ Include anche test unitari per verificare il corretto funzionamento della funzio
 - git push -u origin main
 
 
-## info 
-- 
+## Docker
+- installo docker file 
+- creo un dockerfile
+- creo un file .dockerignore
