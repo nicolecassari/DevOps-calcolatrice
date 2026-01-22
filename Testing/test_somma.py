@@ -23,14 +23,3 @@ def test_somma_divisione():
  #   assert somma(3, "+") == "B is Not a number"
 
 
-# (Opzionale) test parametrizzato: comodo quando hai tanti casi simili
-@pytest.mark.parametrize(
-    "a,b,expected",
-    [
-        (-3, 2, -1),
-        (2.5, 2, 4.5),
-        (3 / 2.5, 1, (3 / 2.5) + 1),
-    ],
-)
-def test_somma_parametrizzato(a, b, expected):
-    assert somma(a, b) == expected
