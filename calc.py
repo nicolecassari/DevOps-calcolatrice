@@ -2,8 +2,8 @@
 #     TDD  -> refactoring -> write a failing test -> make the test pass ->...
 # ancora prima di scrivere codice fai in modo che fallisca
 
-from testing import somma
-from testing import sottrazione
+from operazioni import somma
+from operazioni import sottrazione
 
 
 print(

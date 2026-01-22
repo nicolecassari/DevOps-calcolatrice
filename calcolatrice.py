@@ -1,4 +1,4 @@
-from testing import somma, sottrazione
+from operazioni import somma, sottrazione
 
 
 def calcolatrice (operazione: str, a: float,b: float):

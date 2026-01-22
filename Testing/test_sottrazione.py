@@ -1,5 +1,5 @@
 import pytest
-from testing import sottrazione
+from operazioni import sottrazione
 
 
 def test_sottrazione_interi():

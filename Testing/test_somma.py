@@ -1,6 +1,6 @@
 
 import pytest
-from testing import somma
+from operazioni import somma
 
 
 def test_somma_interi():

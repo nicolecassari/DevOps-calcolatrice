@@ -1,5 +1,5 @@
 import pytest
-from testing import moltiplicazione
+from operazioni import moltiplicazione
 
 
 def test_moltiplicazione_interi():
