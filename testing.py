@@ -16,5 +16,5 @@ def sottrazione(a:float, b:float):
 
     if not isinstance(b, (int, float)):
         return "B Not a number"
-    return a + b
+    return a - b
 

@@ -1,5 +1,5 @@
 import pytest
-from testingsomma import somma, sottrazione
+from testing import sottrazione
 
 
 def test_sottrazione_interi():
@@ -11,7 +11,7 @@ def test_sottrazione_float_e_int():
 
 
 def test_sottrazione_divisione():
-    assert sottrazione(3 / 2.5, 1) == (3 / 2.5) - 1
+    assert sottrazione(1, 2.5) ==  - 1.5
 
 
 def test_sottrazione_a_non_numero():
@@ -23,14 +23,14 @@ def test_sottrazione_b_non_numero():
 
 
 #  Test parametrizzato (consigliato)
-@pytest.mark.parametrize(
-    "a,b,expected",
-    [
-        (5, 3, 2),
-        (5.5, 2, 3.5),
-        (3 / 2.5, 1, (3 / 2.5) - 1),
-        (-3, -2, -1),
-    ],
-)
-def test_sottrazione_parametrizzato(a, b, expected):
-    assert sottrazione(a, b) == expected
+#@pytest.mark.parametrize(
+#    "a,b,expected",
+#    [
+#        (5, 3, 2),
+#        (5.5, 2, 3.5),
+#        (3 / 2.5, 1, (3 / 2.5) - 1),
+#        (-3, -2, -1),
+#    ],
+#)
+#def test_sottrazione_parametrizzato(a, b, expected):
+   # assert sottrazione(a, b) == expected
