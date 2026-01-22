@@ -18,3 +18,10 @@ def sottrazione(a:float, b:float):
         return "B Not a number"
     return a - b
 
+def moltiplicazione(a:float, b:float):
+    if not isinstance(a, (int, float)):
+        return "A Not a number"
+
+    if not isinstance(b, (int, float)):
+        return "B Not a number"
+    return a * b
