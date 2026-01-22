@@ -5,10 +5,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-RUN useradd -m appuser
+RUN useradd -m appuser  #uso RUN come se avessi creato una VM 
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt   #per ottimizzare lo strato docker
 
 COPY . .
 RUN chown -R appuser:appuser /app
