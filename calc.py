@@ -4,6 +4,8 @@
 
 from operazioni import somma
 from operazioni import sottrazione
+from operazioni import moltiplicazione
+
 
 
 print(
@@ -12,5 +14,6 @@ print(
     "test 3:", somma(3, 2.5), "\n",
     "test 4:", somma(3, 2.5), "\n",
     "test 5:", somma(3, 2), "\n",
-    "test 5:", sottrazione(3, 1), "\n"
+    "test 6:", sottrazione(3, 1), "\n",
+    "test 7:", moltiplicazione(3, 1), "\n"
 )
