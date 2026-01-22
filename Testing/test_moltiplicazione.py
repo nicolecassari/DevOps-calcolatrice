@@ -21,4 +21,3 @@ def test_moltiplicazione_divisione():
 #def test_moltiplicazione_b_non_numero():
  #   assert moltiplicazione(3, "+") == "B is Not a number"
 
-
