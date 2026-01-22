@@ -6,6 +6,8 @@ def calcolatrice (operazione: str, a: float,b: float):
         return somma (a, b)
     if operazione == "sottrazione":
         return sottrazione (a, b)
+    if operazione == "moltiplicazione":
+        return moltiplicazione (a, b)
     else:
         return None
     
