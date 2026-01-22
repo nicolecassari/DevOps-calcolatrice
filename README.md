@@ -39,3 +39,7 @@ Include anche test unitari per verificare il corretto funzionamento della funzio
 - git branch -M main
 - git remote add origin https://github.com/nicolecassari/DevOps-calcolatrice.git
 - git push -u origin main
+
+
+## info 
+- 

@@ -1,4 +1,4 @@
-from operazioni import somma, sottrazione
+from operazioni import somma, sottrazione, moltiplicazione
 
 
 def calcolatrice (operazione: str, a: float,b: float):
@@ -10,5 +10,8 @@ def calcolatrice (operazione: str, a: float,b: float):
         return None
     
 if __name__=="__main__":
-    print("somma di 3 a 5:", calcolatrice("somma", 3,5))
-    
+    print(
+         ("somma di 3 a 5:", calcolatrice("somma", 3,5)), "\n",
+         ("sottrazione di 10 a 7:", calcolatrice("sottrazione", 10,7)), "\n",
+         ("moltiplicazione di 3 e 5:", calcolatrice("moltiplicazione", 3,5))
+    )

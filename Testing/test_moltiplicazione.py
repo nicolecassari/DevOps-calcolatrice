@@ -21,3 +21,15 @@ def test_moltiplicazione_divisione():
 #def test_moltiplicazione_b_non_numero():
  #   assert moltiplicazione(3, "+") == "B is Not a number"
 
+#  Test parametrizzato (consigliato)
+#@pytest.mark.parametrize(
+#    "a,b,expected",
+#    [
+#        (5, 3, 2),
+#        (5.5, 2, 3.5),
+#        (3 / 2.5, 1, (3 / 2.5) - 1),
+#        (-3, -2, -1),
+#    ],
+#)
+#def test_moltiplicazione_parametrizzato(a, b, expected):
+   # assert moltiplicazione(a, b) == expected
