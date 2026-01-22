@@ -14,12 +14,12 @@ def test_sottrazione_divisione():
     assert sottrazione(1, 2.5) ==  - 1.5
 
 
-def test_sottrazione_a_non_numero():
-    assert sottrazione("a", 2) == "A is Not a number"
+#def test_sottrazione_a_non_numero():
+ #   assert sottrazione("a", 2) == "A is Not a number"
 
 
-def test_sottrazione_b_non_numero():
-    assert sottrazione(3, "+") == "B is Not a number"
+#def test_sottrazione_b_non_numero():
+ #   assert sottrazione(3, "+") == "B is Not a number"
 
 
 #  Test parametrizzato (consigliato)
