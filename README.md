@@ -1,6 +1,9 @@
 # README
 Questo codice contiene una semplice calcolatrice che esegue operazioni di:
-somma tra due numeri
+
+- somma tra due numeri
+- sottrazione tra due numeri
+- moltiplicazione tra due numeri
 
 Include anche test unitari per verificare il corretto funzionamento della funzione di somma.
 
