@@ -6,3 +6,6 @@ pycache/
 .venv/
 .env
 .vscode/
+.idea/
+.logs/
+*.log
