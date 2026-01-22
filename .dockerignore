@@ -8,3 +8,8 @@ __pycache__/
 .mypy_cache/
 .dist/
 .build/
+
+#ignora i test perche' non servono nell'immagine docker essendo utili solo in fase di sviluppo
+Testing/
+tests_*.py
+*.log
